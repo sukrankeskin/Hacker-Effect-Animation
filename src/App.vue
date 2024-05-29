@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HackerEffect />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HackerEffect from "./components/HackerEffect.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HackerEffect,
+  },
+};
 </script>
 
 <style>
